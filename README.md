@@ -15,8 +15,8 @@ See demo : https://allocine-react-hl.netlify.com
 Clone this repository:
 
 ```
-git clone https://github.com/Orphee1/Allocine-tab.git
-cd Allocine-tab
+git clone https://github.com/Orphee1/allocine-react.git
+cd allocine-react
 ```
 
 Install packages:
