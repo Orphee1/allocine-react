@@ -42,6 +42,7 @@ function App() {
                 }
                 onClick={() => {
                   setSelectedTab("popular");
+                  setLoading(false);
                 }}
               >
                 Popular Movies
@@ -52,6 +53,7 @@ function App() {
                 }
                 onClick={() => {
                   setSelectedTab("upcoming");
+                  setLoading(false);
                 }}
               >
                 Upcoming Movies
@@ -62,6 +64,7 @@ function App() {
                 }
                 onClick={() => {
                   setSelectedTab("top_rated");
+                  setLoading(false);
                 }}
               >
                 Top Rated Movies
@@ -70,17 +73,17 @@ function App() {
           </div>
         </div>
         <div className="bottom grey">
-          {loading === true ? (
-            <div class="lds-roller">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          ) : (
-            <div className="container card-container">
-              {movies.map((movie, index) => {
+          <div className="container card-container">
+            {loading === true ? (
+              <div class="lds-roller">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            ) : (
+              movies.map((movie, index) => {
                 return (
                   <Card
                     key={index}
@@ -90,9 +93,9 @@ function App() {
                     story={movie.overview}
                   />
                 );
-              })}
-            </div>
-          )}
+              })
+            )}
+          </div>
         </div>
       </section>
     </header>
