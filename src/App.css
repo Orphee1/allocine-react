@@ -1,228 +1,228 @@
 /* =============== REPERES DEBUG ================== */
 
 .red {
-  background-color: red;
+      background-color: red;
 }
 
 .green {
-  background-color: green;
+      background-color: green;
 }
 
 .blue {
-  background-color: blue;
+      background-color: blue;
 }
 
 .yellow {
-  background-color: #fecc02;
+      background-color: #fecc02;
 }
 
 .grey {
-  background-color: #f4f4f4;
+      background-color: #f4f4f4;
 }
 
 /* ====================== RESET ====== */
 ul,
 li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+      list-style: none;
+      margin: 0;
+      padding: 0;
 }
 
 /* ===================== GLOBAL RULES ======= */
 
 .container {
-  width: 1024px;
-  margin: 0 auto;
+      width: 1024px;
+      margin: 0 auto;
 }
 
 .pv-32 {
-  padding: 32px 0;
+      padding: 32px 0;
 }
 
 .mb-20 {
-  margin-bottom: 20px;
+      margin-bottom: 20px;
 }
 
 .m-10 {
-  margin: 10px;
+      margin: 10px;
 }
 
 .m-5 {
-  margin: 5px;
+      margin: 5px;
 }
 /* ======================= HEADER ============ */
 
 .header {
-  display: flex;
-  line-height: 80px;
-  background-color: #fecc02;
+      display: flex;
+      line-height: 80px;
+      background-color: #fecc02;
 }
 
 .logo {
-  height: 48px;
+      height: 48px;
 }
 
 /* ======================= Top-Bar ============== */
 
 .menu {
-  display: flex;
-  justify-content: flex-start;
-  line-height: 80px;
+      display: flex;
+      justify-content: flex-start;
+      line-height: 80px;
 }
 
 .menu ul {
-  display: flex;
-  line-height: 80px;
+      display: flex;
+      line-height: 80px;
 }
 
 .unselected {
-  margin-right: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 22px;
-  cursor: pointer;
+      margin-right: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 22px;
+      cursor: pointer;
 }
 
 .selected {
-  margin-right: 20px;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 22px;
-  text-decoration: underline;
-  cursor: pointer;
+      margin-right: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 22px;
+      text-decoration: underline;
+      cursor: pointer;
 }
 
 /* ====================== Bottom page === */
 
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
+      display: flex;
+      flex-wrap: wrap;
 }
 
 /* ================= Card =========== */
 
 .card {
-  width: 400px;
-  height: 250px;
-  margin: 15px;
-  display: flex;
-  flex: 1 0 400px;
-  background-color: #ffffff;
+      width: 400px;
+      height: 250px;
+      margin: 15px;
+      display: flex;
+      flex: 1 0 400px;
+      background-color: #ffffff;
 
-  -webkit-box-shadow: 2px 2px 17px 0px rgba(0, 0, 0, 0.18);
-  box-shadow: 2px 2px 17px 0px rgba(0, 0, 0, 0.18);
+      -webkit-box-shadow: 2px 2px 17px 0px rgba(0, 0, 0, 0.18);
+      box-shadow: 2px 2px 17px 0px rgba(0, 0, 0, 0.18);
 }
 
 .bloc-image img {
-  width: 180px;
-  height: 250px;
+      width: 180px;
+      height: 250px;
 }
 
 .bloc-news {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  align-items: stretch;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: stretch;
 }
 
 .title {
-  font-weight: bold;
+      font-weight: bold;
 
-  font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
 }
 .date {
-  color: #6f6f6f;
+      color: #6f6f6f;
 }
 
 .bloc-text {
-  margin: 40px 5px 15px 5px;
-  overflow: scroll;
-  color: #6f6f6f;
-  font-size: 13px;
+      margin: 40px 5px 15px 5px;
+      overflow: scroll;
+      color: #6f6f6f;
+      font-size: 13px;
 }
 
 /*===================== Loader ============= */
 .lds-roller {
-  display: inline-block;
-  position: relative;
-  width: 80px;
-  height: 80px;
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
 }
 .lds-roller div {
-  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  transform-origin: 40px 40px;
+      animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      transform-origin: 40px 40px;
 }
 .lds-roller div:after {
-  content: " ";
-  display: block;
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: black;
-  margin: -4px 0 0 -4px;
+      content: " ";
+      display: block;
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: black;
+      margin: -4px 0 0 -4px;
 }
 .lds-roller div:nth-child(1) {
-  animation-delay: -0.036s;
+      animation-delay: -0.036s;
 }
 .lds-roller div:nth-child(1):after {
-  top: 63px;
-  left: 63px;
+      top: 63px;
+      left: 63px;
 }
 .lds-roller div:nth-child(2) {
-  animation-delay: -0.072s;
+      animation-delay: -0.072s;
 }
 .lds-roller div:nth-child(2):after {
-  top: 68px;
-  left: 56px;
+      top: 68px;
+      left: 56px;
 }
 .lds-roller div:nth-child(3) {
-  animation-delay: -0.108s;
+      animation-delay: -0.108s;
 }
 .lds-roller div:nth-child(3):after {
-  top: 71px;
-  left: 48px;
+      top: 71px;
+      left: 48px;
 }
 .lds-roller div:nth-child(4) {
-  animation-delay: -0.144s;
+      animation-delay: -0.144s;
 }
 .lds-roller div:nth-child(4):after {
-  top: 72px;
-  left: 40px;
+      top: 72px;
+      left: 40px;
 }
 .lds-roller div:nth-child(5) {
-  animation-delay: -0.18s;
+      animation-delay: -0.18s;
 }
 .lds-roller div:nth-child(5):after {
-  top: 71px;
-  left: 32px;
+      top: 71px;
+      left: 32px;
 }
 .lds-roller div:nth-child(6) {
-  animation-delay: -0.216s;
+      animation-delay: -0.216s;
 }
 .lds-roller div:nth-child(6):after {
-  top: 68px;
-  left: 24px;
+      top: 68px;
+      left: 24px;
 }
 .lds-roller div:nth-child(7) {
-  animation-delay: -0.252s;
+      animation-delay: -0.252s;
 }
 .lds-roller div:nth-child(7):after {
-  top: 63px;
-  left: 17px;
+      top: 63px;
+      left: 17px;
 }
 .lds-roller div:nth-child(8) {
-  animation-delay: -0.288s;
+      animation-delay: -0.288s;
 }
 .lds-roller div:nth-child(8):after {
-  top: 56px;
-  left: 12px;
+      top: 56px;
+      left: 12px;
 }
 @keyframes lds-roller {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+      0% {
+            transform: rotate(0deg);
+      }
+      100% {
+            transform: rotate(360deg);
+      }
 }
